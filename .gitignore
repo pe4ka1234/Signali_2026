@@ -2,5 +2,12 @@
 # Данный GITIGNORE-файл был автоматически создан Microsoft(R) Visual Studio.
 ################################################################################
 
-/.vs
 /Занятие номер 5/Домашнее задание/Dual_hamming_simplex/.vs/Dual_hamming_simplex
+.vs/
+x64/
+Debug/
+Release/
+*.user
+*.VC.db
+*.opendb
+dual_hamming_m*.txt
