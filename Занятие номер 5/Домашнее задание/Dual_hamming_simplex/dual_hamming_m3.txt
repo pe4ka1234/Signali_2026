@@ -1,0 +1,25 @@
+CHECK: dual code of Hamming code for m = 3
+Code length n = 2^3 - 1 = 7
+Expected nonzero weight for simplex code: 4
+
+Parity-check matrix H:
+  1010101
+  0110011
+  0001111
+
+Dual codewords:
+
+ 1) coeffs: 000   word: 0000000   weight: 0
+ 2) coeffs: 001   word: 0001111   weight: 4
+ 3) coeffs: 010   word: 0110011   weight: 4
+ 4) coeffs: 011   word: 0111100   weight: 4
+ 5) coeffs: 100   word: 1010101   weight: 4
+ 6) coeffs: 101   word: 1011010   weight: 4
+ 7) coeffs: 110   word: 1100110   weight: 4
+ 8) coeffs: 111   word: 1101001   weight: 4
+
+Summary:
+  Total number of codewords: 8
+  Unique nonzero weights: [4]
+  Conclusion: all nonzero codewords have weight 4.
+  Therefore, the dual code of the Hamming code is indeed a simplex code.
